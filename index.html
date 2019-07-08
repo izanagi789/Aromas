@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>	
+	<meta charset="utf-8"/>
+	<title>Mi primer land page</title>
+	<!--responsive-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"/> 
+	<!--icono-->
+	<link rel="icon" type="image/jpg" sizes="16X16" href="img/1.png"/>
+	<!--links bootstrap 4-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="css/style.css">
+ 	<!--links bootstrap 3-->
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ 	<script src="https://kit.fontawesome.com/904a3d847b.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60" id="fondo">
+            <header >
+               <section id="inicio">
+                <nav class="navbar navbar-expand-md navbar-dark" id="menu" >
+                    <!--logotipo-->
+                    <img  src="img/logo.png" width="300" height="75px"/>
+                    <!--boton de colapsar el menu-->
+                    <button class="navbar-toggler col-sm-4" type="button" data-toggle="collapse" data-target="#bar"><span class="navbar-toggler-icon"></span></button>
+                    <div class="col-sm-6"></div>
+                    <!--elementos de la lista-->
+                    <div class="collapse navbar-collapse justify-content-end col-sm-4" id="bar">
+                        <ol class="navbar-nav" id="lista">
+                            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#marcas">Marcas</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacto">Contactos</a></li>
+                        </ol>
+                    </div>
+                    </nav>
+                </section>
+            </header>
+         <center>   
+	<section id="imgenesSlide" class="carousel slide" data-ride="carousel">
+	<!--seccion para indicadores (puntitos en el slider)-->
+		<ul class="carousel-indicators">
+		<li data-target="#imgenesSlide" data-slide-to="0" class="active"></li>
+		<li data-target="#imgenesSlide" data-slide-to="1" ></li>
+		<li data-target="#imgenesSlide" data-slide-to="2" ></li>
+		</ul>
+	<!--informacion y fotografias-->
+	<article class="carousel-inner">
+		<figure class="carousel-item active">
+		<img src="img/hombre.jpg" alt="realidad aumentada" width="100%" height="350">
+		<div class="carousel-caption">
+			<h3>Promociones del dia</h3>
+			<p>Pequeña descripcion del producto</p>
+		</div>
+		</figure>
+		<figure class="carousel-item">
+		<img src="img/dama.jpg" alt="realidad aumentada" width="90%" height="250">
+		<div class="carousel-caption">
+			<h3>Promociones del dia</h3>
+			<p>Pequeña descripcion del producto</p>
+		</div>
+		</figure>
+		<figure class="carousel-item">
+		<img src="img/dama2.jpg" alt="realidad aumentada" width="90%" height="250">
+		<div class="carousel-caption">
+			<h3>Promociones del dia</h3>
+			<p>Pequeña descripcion del producto</p>
+		</div>
+		</figure>
+	</article>
+	<!--seccion para botones slider-->
+	<a class="carousel-control-prev" href="#imgenesSlide" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	</a>
+	<a class="carousel-control-next" href="#imgenesSlide" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</a>
+	</section>
+	</center>
+	<br>
+	<section id="historia">
+        <h1 id="tit">Histora de la empresa</h1>
+	</section>
+	<br>
+	<section class="container-fluid">
+		<div class="row">
+			<article class="col-sm-7">
+				<h2 id="tit2">Somos un negocio de perfumeria que produce y vende réplicas de fragancias de las marcas más reconocidas en el mercado.
+                en la ciudad de León, Guanajuato. Además vendemos productos de calzado y accesorios para dama y caballero</h2>
+			</article>
+			<article class="col-sm-5">
+				<img src="img/quesomos.jpg" alt="ww2" width="100%" height="250px">
+			</article>	
+		</div>
+		<br>
+        <section class="container-fluid">
+		<div class="row">
+            <article class="col-sm-5">
+				<img src="img/his.jpg" alt="ww2" width="100%" height="250px">
+			</article>	
+			<article class="col-sm-7" >
+				<h2 id="tit2">Aromas abrió sus puertas  en el año 2011 y comenzó comoun pequeño negocio familia, y poco a poco a ido creciendo y a la fecha cuenta con 2 sucursales en la ciudad. Además de una variedad de productos de belleza y cuidado personal</h2>
+			</article>
+		</div>
+            </section>
+            <br>
+            <section id="marcas">
+            <h1 id="tit">Marcas</h1>
+            </section>
+            <center>   
+	<section id="imgenesSlide1" class="carousel slide" data-ride="carousel">
+	<!--seccion para indicadores (puntitos en el slider)-->
+		<ul class="carousel-indicators">
+		<li data-target="#imgenesSlide1" data-slide-to="0" class="active"></li>
+		<li data-target="#imgenesSlide1" data-slide-to="1" ></li>
+		<li data-target="#imgenesSlide1" data-slide-to="2" ></li>
+		</ul>
+	<!--informacion y fotografias-->
+	<article class="carousel-inner">
+		<figure class="carousel-item active">
+        <img src="img/o.43848.jpg.jfif" alt="realidad aumentada" width="90%" height="250" class="img-circle"/>
+		<div class="carousel-caption">
+			<h3>Marcas reconocidas</h3>
+			<p>Lo mejor del mercado</p>
+		</div>
+		</figure>
+		<figure class="carousel-item">
+		<img src="img/hqdefault.jpg.jfif" alt="realidad aumentada" width="90%" height="250" class="img-circle"/>
+		<div class="carousel-caption">
+			<h3>Marcas reconocidas</h3>
+			<p>Lo mejor del mercado</p>
+		</div>
+		</figure>
+		<figure class="carousel-item">
+		<img src="img/perfume-carolina-herrera-212-vip-woman-34-oz-D_NQ_NP_806649-MLM27785267366_072018-F.jpg.jfif" alt="realidad aumentada" width="90%" height="250" class="img-circle"/>
+		<div class="carousel-caption">
+			<h3>Marcas reconocidas</h3>
+			<p>Lo mejor del mercado</p>
+		</div>
+		</figure>
+	</article>
+	<!--seccion para botones slider-->
+	<a class="carousel-control-prev" href="#imgenesSlide1" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	</a>
+	<a class="carousel-control-next" href="#imgenesSlide1" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</a>
+	</section>
+	</center>
+        <br>
+        <center>
+        	<section id="galeria">
+        <h1 id="tit">Galeria</h1>
+	</section>
+	<br>
+            <br>
+				<section class="col-sm-12">
+				<br>
+				<div class="row">
+							<article class="col-lg-4">
+								<img src="img/per4.jpg" width="100%" height="200" class="img-rounded"/>
+							</article>
+							<article class="col-lg-4">
+								<img src="img/jsj.jpg" width="100%" height="200" class="img-rounded"/>
+							</article>
+							<article class="col-lg-4">
+								<img src="img/perfume.jpg" width="100%" height="200" class="img-rounded"/>
+							</article>	
+					</div>
+					<br>
+					<div class="row">
+							<article class="col-lg-4">
+								<img src="img/per5.jpg" width="100%" height="200" class="img-rounded"/>
+							</article>
+							<article class="col-lg-4">
+								<img src="img/per6.jpg" width="100%" height="200" class="img-rounded"/>
+							</article>
+							<article class="col-lg-4">
+								<img src="img/per8.jpg" width="100%" height="200" class="img-rounded"/>
+							</article>
+					</div>
+					<br>
+					<div class="row">
+							<article class="col-lg-4">
+								<img src="img/per9.jpg" width="100%" height="200" class="img-rounded"/>
+							</article>
+							<article class="col-lg-4">
+								<img src="img/per10.jpg" width="100%" height="200" class="img-rounded"/>
+							</article>
+							<article class="col-lg-4">
+								<img src="img/per12.jpg" width="100%" height="200" class="img-rounded"/>
+							</article>
+				</div>	
+                <br>
+                    <button class="btn btn-default btn-lg"> <a href="Galeria.html">Conocer mas</a></button>			
+			</section>
+
+			<section id="contacto" class="container-fluid col-sm-12">
+                <br>
+					<h1 id="tit">Contacto y ubicación</h1>
+					<br>
+					<div class="row">
+						<article class="col-sm-6">
+							<iframe src="https://www.google.com/maps/embed?pb=!4v1562525355364!6m8!1m7!1s1gJRbZ59RWeh6WAEh6j63A!2m2!1d21.1254302756968!2d-101.6820288188407!3f186.51027285444198!4f-0.33978550658230233!5f1.1924812503605782" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</article>
+						<br>
+						<br>
+						<article class="col-sm-6 bg-info" id="tabla">
+					    	<table class="table table-striped ">
+						    	<thead>
+						    		<tr id="tit">
+						    			<th>Día</th>
+						    			<th>Horario</th>
+						    		</tr>
+						    	</thead>
+						    	<tbody>
+						    		<tr id="sub">
+						    			<td>Lunes</td>
+						    			<td>9:00 a 20:00</td>
+						    		</tr>
+						    		<tr id="sub">
+						    			<td>Martes</td>
+						    			<td>9:00 a 20:00</td>
+						    		</tr>
+						    		<tr id="sub">
+						    			<td>Miércoles</td>
+						    			<td>9:00 a 20:00</td>
+						    		</tr>
+						    		<tr id="sub">
+						    			<td>Jueves</td>
+						    			<td>9:00 a 20:00</td>
+						    		</tr>
+						    		<tr id="sub2">
+						    			<td>Viernes</td>
+						    			<td>9:00 a 20:00</td>
+						    		</tr>
+						    		<tr id="sub">
+						    			<td>Sábado</td>
+						    			<td>9:00 a 20:00</td>
+						    		</tr>
+						    		<tr id="sub">
+						    			<td>Domingo</td>
+						    			<td>11:00 a 16:00</td>
+						    		</tr>
+						    	</tbody>
+						 	</table>	
+        				</article>	
+					</div>
+	        </section>
+        <!--piede de página y contactos-->
+		<footer class=" col-sm-12 text-center" height="200px" id="pie" >
+			<div class="col-sm-5">
+                    <section>
+				    <h4> Contáctanos</h4>
+                        <p><span class="glyphicon glyphicon-phone"></span> (477)7136197</p>
+				        <p><span class="glyphicon glyphicon-envelope"></span> aromasleongto@gmail.com</p>
+				        <p><span class="glyphicon glyphicon-map-marker"></span> León,Gto
+				        blvd. Adolfo lópez Mateos #205 <br>
+						    </p>
+                    </section>    	
+			</div>
+			<div class="col-sm-4">
+				<p>© 2019 Todos los Derechos Reservados</p>
+			</div>
+			<div class="col-sm-3">
+			<section>
+			<div class="col-sm-6">
+				<img src="img/face.png" width="30px" height="30px">
+				<p>Facebook</p>
+				</div>
+				<div class="col-sm-6">
+				<img src="img/Inst.png" width="30px" height="30px" href="https://www.facebook.com/Aromas-Perfumes-y-Fragancias-618836221968879/">	
+				<p>Intagram</p>
+				</div>
+				</section>
+			</div>
+		</footer>
+		<div class="cm-up" id="cm-up">
+		    <input type="button" class="cm-text-up" value="subir al inicio">
+		    <span class="cm-icon">
+		        <i class="fast fa-chevron-up"></i>
+		    </span>
+		    <script src="js/jquery-3.4.1.min.js"></script>
+		    <script src="js/buttom.js"></script>
+		</div>
+	
+	</body>
+</html>
